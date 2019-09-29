@@ -25,4 +25,6 @@ I WOULDN'T BE IN MUCH DETAIL ABOUT IT THIS CAUS' IF YOU ARE READING TO FOLLOW TH
 
 ONCE DONE, IT'LL LOOK SOMETHING SIMILAR LIKE THIS
 
-The file names would be redundant, let the screenshot png file name be "x" and the answer for that screenshot would be "x(1)"
+The file names would be redundant, let the screenshot png file name be "x" and the answer for that screenshot would be "x(1)".
+
+However, there is a small flaw that the photos that Magoosh uses for either geomentry or certain question the images wouldn't be in our screen shots....maybe I'll look into it in the coming updates.
