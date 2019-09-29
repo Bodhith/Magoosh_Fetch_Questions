@@ -34,7 +34,7 @@
             document.getElementById(ids[0]).click();
         }
 
-        else if ( ids[0].indexOf("text") != -1 )                //      Numerical Entries  and  fractions  Questions
+        else if ( ids[0].indexOf("text") != -1 )                //      Numerical Entries  and  Fractions  Questions
         {
             if( document.getElementById(ids[0]).value == "1" )
             {
