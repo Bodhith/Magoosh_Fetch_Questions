@@ -25,4 +25,4 @@ I WOULDN'T BE IN MUCH DETAIL ABOUT IT THIS CAUS' IF YOU ARE READING TO FOLLOW TH
 
 ONCE DONE, IT'LL LOOK SOMETHING SIMILAR LIKE THIS
 
-The file names would be 
+The file names would be redundant, let the screenshot png file name be "x" and the answer for that screenshot would be "x(1)"
