@@ -1,0 +1,19 @@
+<input [a-zA-z=" \[\]0-9]* id="([a-z_0-9]+)"
+
+
+
+<input type="(checkbox|radio|text)" [a-zA-Z0-9 ="\[\]_]* id="([a-zA-Z0-9_ \[\]]+)"
+
+
+
+_answer__parts_val_[0-9]+_choice_id_[0-9]+
+
+
+
+_answer__parts_val_[0-9]+_choice_id_[0-9]+|_answer__parts_val_[0-9]+_text
+
+
+
+_answer__parts_val_[0-9]+_choice_id_[0-9]+|_answer__parts_val_[0-9]+_text[_a-z]*
+
+

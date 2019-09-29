@@ -1,0 +1,51 @@
+// ==UserScript==
+// @name         Magoosh Questions Hack
+// @namespace    Magoosh
+// @version      1.0
+// @description  try to take over the world!
+// @author       eddie_code5
+// @include      https://gre.magoosh.com/practices/*
+// @require      https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.js
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    //window.location = "https://gre.magoosh.com/practices/38163979/q/144";
+
+    function SaveAS(uri, filename) {
+        var link = document.createElement('a');
+
+        if (typeof link.download === 'string') {
+            link.href = uri;
+            link.download = filename;
+
+            //Firefox requires the link to be in the body
+            document.body.appendChild(link);
+
+            //simulate click
+            link.click();
+
+            //remove the link when done
+            document.body.removeChild(link);
+        } else {
+            window.open(uri);
+        }
+    }
+
+    function GetFileName()
+    {
+        var link = window.location;
+
+         
+    }
+
+    function TakeScreenShot()
+    {
+        html2canvas(document.body).then(function(canvas) {
+            SaveAS(canvas.toDataURL(), "144");
+        });
+    }
+
+    TakeScreenShot();
+})();

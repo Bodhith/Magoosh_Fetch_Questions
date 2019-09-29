@@ -1,0 +1,15 @@
+radio
+_answer__parts_val_2688_choice_id_4195
+
+checkbox
+_answer__parts_val_14980_choice_id_58614
+
+text
+_answer__parts_val_4438_text
+
+quant comp radio
+_answer__parts_val_2084_choice_id_1071
+
+fraction text
+_answer__parts_val_8548_text_numerator
+_answer__parts_val_8548_text_denominator

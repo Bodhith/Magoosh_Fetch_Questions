@@ -1,0 +1,31 @@
+
+
+var timeOut = 1000;        
+		
+setTimeout(function(){console.log("MarkAnswer");}, timeOut*5);
+
+setTimeout(function(){console.log("SubmitAnswer");}, timeOut*6);
+
+setTimeout(function(){console.log("ScreenShot Answer");}, timeOut*7);
+
+setTimeout(function(){console.log("Next Question");}, timeOut*8);
+
+setTimeout(function(){console.log("ScreenShot Question");}, timeOut*0);
+
+
+
+
+
+var timeOut = 1000;
+
+setTimeout(MarkAnswer, timeOut*5);
+
+setTimeout(SubmitAnswer(), timeOut*6);
+
+setTimeout(TakeScreenShot, timeOut*7, "Answer");
+
+setTimeout(NextQuestion, timeOut*8);
+
+setTimeout(TakeScreenShot, timeOut*0, "Question");
+
+
