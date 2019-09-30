@@ -11,11 +11,26 @@ HOW TO USE?
 
 THIS IS A EASIER AND FASTER WAY FOR BEGINNERS.
 
+HTML2CANAVS supported browser is recommened to use for the following procedure. According to HTML2CANVAS official documentation at 
+http://html2canvas.hertzen.com/documentation/
+
+Browser compatibility
+
+The library should work fine on the following browsers (with Promise polyfill):
+
+    Firefox 3.5+
+    Google Chrome
+    Opera 12+
+    IE9+
+    Edge
+    Safari 6+
+    
+ If the following procedure doesn't work, follow the steps for other way.
+
 -> This is tested on chrome, so using chrome browser is recommended. Go to magoosh official website, Login...go to Dashboard -> Practice Session -> press F12 and navigate to the console tab -> copy the code from the Bodhith/Magoosh_Fetch_Questions/Script/main.js -> paste it and press enter -> sit back and enjoy, while the questions and their respective answers would taken screen shots and downloaded to the respective default downloads location for your browser.
 
-THE OTHER WAY
 
-I WOULDN'T BE IN MUCH DETAIL ABOUT IT THIS CAUS' IF YOU ARE READING TO FOLLOW THIS PROBABLY YOUR'E NOT A BEGINNER.
+THE OTHER WAY
 
 -> I'm sure there are lot of ways of doing this, and using an chrome extension for that I one of which and the extension for injecting the java script that we use now is called "Tampermonkey"...download and install it, or simply add it.
 
@@ -24,6 +39,8 @@ I WOULDN'T BE IN MUCH DETAIL ABOUT IT THIS CAUS' IF YOU ARE READING TO FOLLOW TH
 -> Enable the script and run it from Dashboard -> Practice Session or while in custom sessions.
 
 ONCE DONE, IT'LL LOOK SOMETHING SIMILAR LIKE THIS
+
+
 
 The file names would be redundant, let the screenshot png file name be "x" and the answer for that screenshot would be "x(1)".
 
